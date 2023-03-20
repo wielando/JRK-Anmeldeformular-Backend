@@ -1,3 +1,4 @@
 <?php
+$con = null;
 
-echo "Test!";
+require_once ('./connection.php');
