@@ -1,4 +1,4 @@
 <?php
-$con = null;
 
-require_once ('./connection.php');
+require ("./requests/HandleRequest.php");
+$requestHandler = new HandleRequest();
